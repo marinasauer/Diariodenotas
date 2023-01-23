@@ -10,4 +10,12 @@ public class GradeBook {
         this.nomeCurso = nomeCurso;
     }
 
+    public double getMediaTurma(){
+        double somaNotas = 0;
+        for(double nota : notasAlunos){
+            somaNotas+= nota;
+        }
+        return somaNotas/notasAlunos.length;
+    }
+
 }
