@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        GradeBook cursoJava = new GradeBook();
+        //GradeBook cursoJava = new GradeBook();
+
+        System.out.printf("%d",(int)10);
     }
 }
